@@ -1,5 +1,5 @@
 try:
-    with open("text_1.txt", "r") as f:
+    with open("text_1.txt", "r", encoding='utf-8') as f:
         content = f.readlines()
         print(f"В файле {f.name} {len(content)} строк.")
         for i, el in enumerate(content, 1):

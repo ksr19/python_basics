@@ -1,4 +1,4 @@
-with open("text_1.txt", "w") as f:
+with open("text_1.txt", "w", encoding='utf-8') as f:
     while True:
         input_string = input("Введите информацию для добавления в файл (пустая строка для прекращения ввода): ")
         if input_string:

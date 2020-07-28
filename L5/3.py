@@ -1,5 +1,5 @@
 try:
-    with open("text_3.txt", "r") as f:
+    with open("text_3.txt", "r", encoding='utf-8') as f:
         employee_list = []
         earnings_list = []
         for line in f:

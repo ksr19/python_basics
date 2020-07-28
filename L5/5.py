@@ -1,6 +1,6 @@
 from random import random
 
-with open("text_5.txt", "w+") as f:
+with open("text_5.txt", "w+", encoding='utf-8') as f:
     for i in range(int(random() * (50 - 1) + 1)):
         print(round(random() * 100, 4), end=' ', file=f)
     f.seek(0)
